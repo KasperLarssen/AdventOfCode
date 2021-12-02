@@ -1,6 +1,3 @@
-from os import DirEntry
-
-
 with open("data.txt") as file_in:
     lines = []
     for line in file_in:
@@ -21,7 +18,6 @@ def solution():
         elif(direction == "up"):
              y -= value
     return y*x
-
 print(solution())
 
 #star 2
@@ -41,5 +37,4 @@ def solution2():
         elif(direction == "up"):
              aim -= value
     return y*x
-
 print(solution2())
